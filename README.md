@@ -4,7 +4,7 @@ Deployment Link:
 
 ## Overview
 
-The homework this week will be a little bit different! Rather tha building something from scratch, you will be "remixing" code found in the `1-fellow-tracker-final/` directory of the repo below to build your own app! 
+The homework this week will be a little bit different! Rather than building something from scratch, you will be "remixing" code found in the `1-fellow-tracker-final/` directory of the repo below to build your own app! 
 
 https://github.com/The-Marcy-Lab-School/8-1-0-express-rest-api-model
 
@@ -12,7 +12,7 @@ This repository contains a server application with controllers and a model for m
 
 ### Your Task
 
-You will be tasked with "remixing" the provided application, adjusting it for the domain area of your choice. For example, you may choose to implement a Playlist API that lets users manage a list of songs or a Library API that lets users manage a list of books. 
+You will be tasked with "remixing" the provided application and adjusting it for the domain area of your choice. For example, you may choose to implement a Playlist API that lets users manage a list of songs or a Library API that lets users manage a list of books. 
 
 Regardless of your choice, the API should manage a **collection of objects**.
 
@@ -64,7 +64,7 @@ There are a total of 15 requirements and 5 bonus requirements.
 - [ ] A collection of objects is managed by the server API
 - [ ] Every object in the collection has a unique `id` and at least two (2) additional properties
 
-* Interactions with the data is provided by a `class` with at least:
+* Interactions with the data are provided by a `class` with at least:
 
   - [ ] a `static` method to **create** a new resource.
   - [ ] a `static` method to **read** existing resources (either all or one at a time).
@@ -82,7 +82,7 @@ There are a total of 15 requirements and 5 bonus requirements.
 - [ ] The server can parse JSON in incoming requests with `express.json()` middleware
 - [ ] All endpoints begin with `/api`
 - [ ] All endpoints use plural nouns (e.g. `/api/fellows`), NOT verbs (e.g. `/api/getFellows`)
-- [ ] Error codes are used appropriately (see below for error code usages):
+- [ ] Error codes are used appropriately (see below for error code information):
 
 ### Deployment Requirements
 
